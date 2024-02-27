@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family:digital-7;
+    src: url(/fonts/digital-7.regular.ttf);
+}
+
+:root{
+    --light-color: rgb(46,36,100);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    gap: 50px;
+}
+
+h2{
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+    font-weight: bolder;
+}
+
+.frame{
+    width: 600px;
+    height: 300px;
+    background-color: bisque;
+    border: 30px double black;
+    padding: 10px;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    font-size: 75px;
+    text-align: center;
+    line-height: 184px;
+    font-family: digital-7;
+    
+    }
+
+.clock{
+    font-family: digital-7;
+    font-weight: bold;
+    /* text-shadow: 0 0 20px var(--light-color); */
+}
+
+
+
+
